@@ -1,0 +1,81 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: calc(100vh / 3);
+  display: flex;
+
+
+}
+
+.nav{
+  /* top and position allow for sticky navbar with no js */
+  top: 0;
+  position: sticky;
+
+  align-items: ;
+}
+
+.jumbotron{
+  margin-top: 100px;
+  height: 100vh;
+  /* height: calc(100vh); */
+  text-align: center;
+
+  overflow: auto;
+
+  background-color: white;
+  background-size: cover;
+}
+.jumbotron h1{
+/*   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+  color: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}
+.btn{
+  align-items: flex-end;  
+}
+
+
+/* media queries for different devices */
+
+@media screen and (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+  .intro {
+    font-size: 100px;
+  }
+  
+}
+@media screen and (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+  .intro {
+    font-size: 150px;
+  }
+}
+@media screen and (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+  .intro {
+    font-size: 200px;
+  }
+  
+}
+@media screen and (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .intro {
+    font-size: 300px;
+  }
+}
+@media screen and (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+  .intro {
+    font-size: 300px;
+  }
+}
+@media screen and (min-width:1281px) { /* hi-res laptops and desktops */ 
+  .intro {
+    font-size: 500px;
+  }
+}
+
+
+
